@@ -93,7 +93,7 @@ export default function EditIssue() {
           </h1>
         </div>
 
-        {/* Main Form */}
+        
         <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-white/20">
           {error && (
             <div className="mb-6 bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg flex items-center">

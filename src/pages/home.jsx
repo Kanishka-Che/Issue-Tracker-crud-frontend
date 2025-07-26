@@ -16,7 +16,7 @@ function Home() {
   return (
     <div className="bg-gradient-to-br from-white via-blue-50 to-purple-100 min-h-screen">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-10">
-        {/* Header */}
+        
         <div className="text-center mb-12">
           <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-r from-indigo-600 to-90% rounded-full mb-6 shadow-lg">
            <AiFillControl className="text-5xl"/> 
@@ -45,7 +45,7 @@ function Home() {
             <IssueForm onCreated={handleIssueCreated} />
           </div>
 
-          {/* Right Panel: Issue List */}
+        
           <div className="lg:col-span-3 bg-white p-6 rounded-xl shadow-md">
             <div className="mb-6">
               <h2 className="text-2xl font-bold text-gray-900 mb-2 flex items-center">

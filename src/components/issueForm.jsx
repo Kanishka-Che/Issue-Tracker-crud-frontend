@@ -29,7 +29,7 @@ export default function IssueForm({ onCreated }) {
       setSuccess(true);
       onCreated?.();
       
-      // Auto-hide success message
+      
       setTimeout(() => setSuccess(false), 3000);
     } catch (err) {
       setError(err.response?.data?.message || 'Failed to create issue');
@@ -42,7 +42,7 @@ export default function IssueForm({ onCreated }) {
     <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-white/20"
       style={{ backgroundImage: 'url(/back_2.jpeg)', backgroundSize: 'cover' }}>
       <form onSubmit={handleSubmit} className="space-y-5">
-        {/* Status Messages */}
+        
         {error && (
           <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg flex items-center">
             <span className="mr-2">⚠️</span>
